@@ -8,4 +8,4 @@ parent: "Variables"
 url: /2017/02/23/hello-world/
 ---
 
-Welcome to WordPress. This is your first post. Edit or delete it, then start writing!
+Welcome to Hugo. This is your first post. Edit or delete it, then start writing!
