@@ -10,7 +10,7 @@
 public/
 nbproject/
 
-/node_modules/
+node_modules/
 /npm-debug.log.*
 /dist/
 /src/client.config.json
