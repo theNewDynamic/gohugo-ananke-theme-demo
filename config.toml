@@ -1,7 +1,7 @@
 title = "My New Hugo Site"
-baseURL = "http://example.org/"
+baseURL = "http://gohugo-default-theme.surge.sh"
 languageCode = "en-us"
-theme = "gohugo-default"
+theme = "gohugo-default-theme"
 
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
