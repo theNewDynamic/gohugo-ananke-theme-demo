@@ -1,5 +1,5 @@
 title = "Notre-Dame de Paris"
-baseURL = "http://gohugo-default-theme.surge.sh"
+baseURL = "http://gohugo-theme-example.netlify.com/"
 languageCode = "en-us"
 theme = "gohugo-default-theme"
 
