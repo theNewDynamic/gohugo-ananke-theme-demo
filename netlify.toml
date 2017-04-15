@@ -1,3 +1,10 @@
 [build]
-  command = "HUGO_ENV=development hugo_0.19"
+  command = "hugo"
   publish = "public"
+
+[context.production.environment]
+  HUGO_VERSION = "0.19"
+  HUGO_ENV = "development"
+
+# https://www.netlify.com/docs/continuous-deployment/#deploy-contexts
+# https://www.netlify.com/blog/2017/04/11/netlify-plus-hugo-0.20-and-beyond/
