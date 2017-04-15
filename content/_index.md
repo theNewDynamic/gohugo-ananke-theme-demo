@@ -3,4 +3,4 @@ title: "Hugo Default Theme"
 featured_image: '/images/gohugo-default-sample-hero-image.jpg'
 description: "The last theme you'll ever need. Maybe."
 ---
-Welcome to a community of action-oriented, cross-sector professionals located in the heart of Manhattan, where we aim to better the world through civic tech.
+Welcome to my blog with some of my work in progress. I've been working on this book idea. You can read some of the chapters below.

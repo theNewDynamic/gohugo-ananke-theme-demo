@@ -51,9 +51,7 @@ Coppenole, hosier. Do you hear, usher? Nothing more, nothing less. Cross
 of God! hosier; that’s fine enough. Monsieur the Archduke has more than
 once sought his _gant_\* in my hose.”
 
-<pre xml:space="preserve">
-     *  Got the first idea of a timing.
-</pre>
+_*  Got the first idea of a timing._
 
 Laughter and applause burst forth. A jest is always understood in Paris,
 and, consequently, always applauded.
