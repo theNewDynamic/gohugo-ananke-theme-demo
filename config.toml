@@ -1,6 +1,6 @@
 title = "Ananke"
 baseURL = "https://gohugo-ananke-theme-demo.netlify.com/"
-languageCode = "en-us"
+languageCode = "en"
 theme = "gohugo-theme-ananke"
 
 MetaDataFormat = "yaml"
