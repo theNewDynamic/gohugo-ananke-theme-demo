@@ -22,29 +22,29 @@ collections:
         valueField: "title"
         searchFields: ["title", "body"]
       - {label: "Body", name: "body", widget: "markdown"}
-- label: "Pages"
-  name: "pages"
-  files:
-    - label: "Home Page"
-      name: "_index"
-      file: "content/_index.yml"
-      fields:
-        - {label: Title, name: title, widget: string}
-        - {label: Intro, name: intro, widget: markdown}
-        - label: Team
-          name: team
-          widget: list
-          fields:
-            - {label: Name, name: name, widget: string}
-            - {label: Position, name: position, widget: string}
-            - {label: Photo, name: photo, widget: image}
-            - label: "Post Settings"
-              name: posts
-              widget: "object"
-              fields:
-                - {label: "Number of posts on frontpage", name: front_limit, widget: number}
-                - {label: "Default Author", name: author, widget: string}
-                - {label: "Default Thumbnail", name: thumb, widget: image, class: "thumb"}
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Home Page"
+        name: "_index"
+        file: "content/_index.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Position, name: position, widget: string}
+              - {label: Photo, name: photo, widget: image}
+              - label: "Post Settings"
+                name: posts
+                widget: "object"
+                fields:
+                  - {label: "Number of posts on frontpage", name: front_limit, widget: number}
+                  - {label: "Default Author", name: author, widget: string}
+                  - {label: "Default Thumbnail", name: thumb, widget: image, class: "thumb"}
     - label: "Page"
       name: "pages"
       folder: "content/"
