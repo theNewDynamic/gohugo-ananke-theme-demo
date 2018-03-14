@@ -45,18 +45,18 @@ collections:
                   - {label: "Number of posts on frontpage", name: front_limit, widget: number}
                   - {label: "Default Author", name: author, widget: string}
                   - {label: "Default Thumbnail", name: thumb, widget: image, class: "thumb"}
-    - label: "Page"
-      name: "pages"
-      folder: "content/"
-      fields:
-        - {label: Title, name: title, widget: string}
-        - {label: "Body", name: "body", widget: "markdown"}
-        - label: Locations
-          name: locations
-          widget: list
-          fields:
-            - {label: Name, name: name, widget: string}
-            - {label: Address, name: address, widget: string}
+  - label: "Page"
+    name: "pages"
+    folder: "content/"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Locations
+        name: locations
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Address, name: address, widget: string}
     - label: "About"
       name: "about"
       folder: "content/about/"
