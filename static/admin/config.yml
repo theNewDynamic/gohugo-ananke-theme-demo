@@ -70,21 +70,21 @@ collections:
           - {label: Name, name: name, widget: string}
           - {label: Address, name: address, widget: string}
   - name: "settings"
-      label: "Settings"
-      delete: false # Prevent users from deleting documents in this collection
-      editor:
-        preview: false
-      files:
-        - name: "general"
-          label: "Site Settings"
-          file: "data/settings.json"
-          description: "General Site Settings"
-          fields:
-            - {label: "Global title", name: "site_title", widget: "string"}
-            - label: "Post Settings"
-              name: posts
-              widget: "object"
-              fields:
-                - {label: "Number of posts on frontpage", name: front_limit, widget: number}
-                - {label: "Default Author", name: author, widget: string}
-                - {label: "Default Thumbnail", name: thumb, widget: image, class: "thumb"}
+    label: "Settings"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - name: "general"
+        label: "Site Settings"
+        file: "data/settings.json"
+        description: "General Site Settings"
+        fields:
+          - {label: "Global title", name: "site_title", widget: "string"}
+          - label: "Post Settings"
+            name: posts
+            widget: "object"
+            fields:
+              - {label: "Number of posts on frontpage", name: front_limit, widget: number}
+              - {label: "Default Author", name: author, widget: string}
+              - {label: "Default Thumbnail", name: thumb, widget: image, class: "thumb"}
