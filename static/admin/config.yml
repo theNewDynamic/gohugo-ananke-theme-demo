@@ -57,18 +57,18 @@ collections:
         fields:
           - {label: Name, name: name, widget: string}
           - {label: Address, name: address, widget: string}
-    - label: "About"
-      name: "about"
-      folder: "content/about/"
-      fields:
-        - {label: Title, name: title, widget: string}
-        - {label: "Body", name: "body", widget: "markdown"}
-        - label: Locations
-          name: locations
-          widget: list
-          fields:
-            - {label: Name, name: name, widget: string}
-            - {label: Address, name: address, widget: string}
+  - label: "About"
+    name: "about"
+    folder: "content/about/"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - label: Locations
+        name: locations
+        widget: list
+        fields:
+          - {label: Name, name: name, widget: string}
+          - {label: Address, name: address, widget: string}
     - name: "settings"
         label: "Settings"
         delete: false # Prevent users from deleting documents in this collection
