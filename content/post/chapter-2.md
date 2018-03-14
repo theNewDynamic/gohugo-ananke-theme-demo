@@ -1,12 +1,10 @@
 ---
-date: 2017-04-10T11:00:59-04:00
-description: "Pierre Gringoire"
-featured_image: ""
-tags: []
-title: "Chapter II: Pierre Gringoire"
+title: 'Chapter II: Pierre Gringoire'
+date: 2017-04-10T15:00:59.000Z
+thumbnail: /uploads/dtdqpp9xcaaprq6.jpg_large.jpg
+rating: '1'
 ---
-
-Nevertheless, as be harangued them, the satisfaction and admiration
+Nevertheless, she persisted. As be harangued them, the satisfaction and admiration
 unanimously excited by his costume were dissipated by his words; and when
 he reached that untoward conclusion: “As soon as his illustrious eminence,
 the cardinal, arrives, we will begin,” his voice was drowned in a thunder
