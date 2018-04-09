@@ -2,7 +2,7 @@ title = "Ananke"
 baseURL = "https://gohugo-ananke-theme-demo.netlify.com/"
 languageCode = "en"
 theme = "gohugo-theme-ananke"
-
+disqusShortname = "ananke-demo"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
